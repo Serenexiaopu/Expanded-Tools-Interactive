@@ -1,0 +1,35 @@
+
+.gr__tooltip .gr__triangle {
+    display: inline-block;
+    position: absolute;
+    bottom: initial;
+    top: 100%;
+    opacity: 0.9;
+    width: 0px;
+    height: 0px;
+    border-top: 9px solid rgb(33, 33, 33) !important;
+    border-left: 8px solid transparent !important;
+    border-right: 8px solid transparent !important;
+}
+
+.gr__tooltip {
+    position: absolute;
+    opacity: 0;
+    top: -9999px;
+    z-index: 2147483647;
+    display: inline-block;
+    width: 240px;
+    font-family: Lato !important;
+    transition: opacity 0.2s ease-out 0.4s;
+}
+
+.square {
+    background-color: #CB88FF;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+

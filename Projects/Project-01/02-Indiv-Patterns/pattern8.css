@@ -1,4 +1,4 @@
-
+  
 
 
 .position-fixed{
@@ -23,23 +23,6 @@ flex-direction: row;
 flex-wrap: wrap;
 }
 
-a{
-  padding:66px;
-  margin-left: 20px;
-  margin-left: 20px;
-  font-family: sans-serif;
-  font-size: 48px;
-  color: black;
-}
-
-#home{
-  margin: 5em auto;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-
 
 
 
@@ -62,7 +45,7 @@ a{
 	width: 1980px;
 	height: 88px;
 	margin:20px;
-	mix-blend-mode: overlay;
+	
 	background-image:
     linear-gradient(
       to right, 
@@ -75,25 +58,32 @@ a{
 .circle1{
   width:40px;
   height:40px;
-  margin-top:50px;
+  margin-top:20px;
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   background-color: #c195f480;
   border-radius: 50%;
   box-shadow: 5px 5px 15px #4a494963;
 
 }
 
-.circle2{
+.circle1:hover{
   width:40px;
   height:40px;
-  margin-top:100px;
+  margin-top:20px;
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 100px;
-  background-color: #ff00ff;
+  margin-bottom: 20px;
+  background-color: #fff9a2;
+
   border-radius: 50%;
+  box-shadow: 5px 5px 15px #4a494963;
+  transform: skew(-20deg);
+  transition:all 0.2s;
+
 
 }
+
+
 

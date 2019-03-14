@@ -15,15 +15,25 @@ body {
 	border: solid black 5px;
 }
 
+.table{
+
+    width: 888px;
+    height: 176px;
+    top: 369px;
+    background: #fffcf2;
+    position: absolute;
+}
+
 .vase{
 
 	width: 200px;
 		height: 230px;
-		background: #688440;
+		background: #8eb15d;
 		position: absolute;
 		top: 200px;
-		left: 200px;
+		left: 400px;
 	border-radius: 100px 100px 50px 50px;
+
 
 }
 
@@ -31,17 +41,29 @@ body {
 
 	width: 80px;
 		height: 80px;
-		background: #688440;
+		background: #8eb15d;
 		position: absolute;
 		top: 190px;
-		left: 260px;
+		left: 460px;
 	border-radius: 10px;
+
+}
+
+.light{
+
+    width: 40px;
+    height: 13px;
+    background: #ccdeb2bd;
+    position: absolute;
+    top: 220px;
+    left: 460px;
+    border-radius: 50%;
 
 }
 
 .curve {
     margin-top: 105px;
-    margin-left: 95px;
+    margin-left: 295px;
     width: 140px;
     height: 178px;
     border: solid 5px #000;
@@ -49,11 +71,12 @@ body {
     border-radius: 0 10%/100px 0 0;
     transform: rotate(50deg);
     position: absolute;
+
 }
 
 .curve2 {
     margin-top: 104px;
-    margin-left: 144px;
+    margin-left: 344px;
     width: 140px;
     height: 94px;
     border: solid 5px #000;
@@ -65,7 +88,7 @@ body {
 
 .curve3 {
     margin-top: 68px;
-    margin-left: 191px;
+    margin-left: 391px;
     width: 155px;
     height: 94px;
     border: solid 5px #000;
@@ -77,7 +100,7 @@ body {
 
 .curve4 {
     margin-top: 59px;
-    margin-left: 231px;
+    margin-left: 431px;
     width: 147px;
     height: 98px;
     border: solid 5px #000;
@@ -89,7 +112,7 @@ body {
 
 .curve5 {
     margin-top: 74px;
-    margin-left: 235px;
+    margin-left: 435px;
     width: 147px;
     height: 84px;
     border: solid 5px #000;
@@ -100,8 +123,8 @@ body {
 }
 
 .curve6 {
-       margin-top: 95px;
-    margin-left: 261px;
+    margin-top: 95px;
+    margin-left: 461px;
     width: 147px;
     height: 84px;
     border: solid 5px #000;
@@ -113,75 +136,447 @@ body {
 
 .flower1{
     margin-top: 49px;
-    margin-left: 206px;
+    margin-left: 406px;
     width: 30px;
     height: 30px;
     background: #ffe133;
     border-radius: 50%;
     transform: rotate(129deg);
     position: absolute;
+    transition:background-color 1s ease;
+    
 }
+
+.flower1:hover{
+    margin-top: 49px;
+    margin-left: 406px;
+    width: 30px;
+    height: 30px;
+    background-color: #ec3131;
+    border-radius: 50%;
+    transform: rotate(129deg);
+    position: absolute;
+    transition:background-color 1s ease;
+    
+}
+
 
 .flower2{
     margin-top: 74px;
-    margin-left: 173px;
+    margin-left: 373px;
     width: 30px;
     height: 30px;
     background: #ffe133;
     border-radius: 50%;
     transform: rotate(129deg);
     position: absolute;
+    transition:background-color 1s ease;
+}
+
+.flower2:hover{
+    margin-top: 74px;
+    margin-left: 373px;
+    width: 30px;
+    height: 30px;
+    background: #ec3131;
+    border-radius: 50%;
+    transform: rotate(129deg);
+    position: absolute;
+    transition:background-color 1s ease;
 }
 
 .flower3{
     margin-top: 31px;
-    margin-left: 300px;
+    margin-left: 500px;
     width: 30px;
     height: 30px;
     background: #ffe133;
     border-radius: 50%;
     transform: rotate(129deg);
     position: absolute;
+    transition:background-color 1s ease;
+}
+
+.flower3:hover{
+    margin-top: 31px;
+    margin-left: 500px;
+    width: 30px;
+    height: 30px;
+    background: #ec3131;
+    border-radius: 50%;
+    transform: rotate(129deg);
+    position: absolute;
+    transition:background-color 1s ease;
 }
 
 .flower4{
     margin-top: 71px;
-    margin-left: 337px;
+    margin-left: 537px;
     width: 30px;
     height: 30px;
     background: #ffe133;
     border-radius: 50%;
     transform: rotate(129deg);
     position: absolute;
+    transition:background-color 1s ease;
+}
+
+.flower4:hover{
+    margin-top: 71px;
+    margin-left: 537px;
+    width: 30px;
+    height: 30px;
+    background: #ec3131;
+    border-radius: 50%;
+    transform: rotate(129deg);
+    position: absolute;
+    transition:background-color 1s ease;
 }
 
 
 .flower5{
     margin-top: 33px;
-    margin-left: 365px;
+    margin-left: 565px;
     width: 30px;
     height: 30px;
     background: #ffe133;
     border-radius: 50%;
     transform: rotate(129deg);
     position: absolute;
+    transition:background-color 1s ease;
+}
+
+.flower5:hover{
+    margin-top: 33px;
+    margin-left: 565px;
+    width: 30px;
+    height: 30px;
+    background: #ec3131;
+    border-radius: 50%;
+    transform: rotate(129deg);
+    position: absolute;
+    transition:background-color 1s ease;
 }
 
 .flower6{
     margin-top: 83px;
-    margin-left: 397px;
+    margin-left: 597px;
     width: 30px;
     height: 30px;
     background: #ffe133;
     border-radius: 50%;
     transform: rotate(129deg);
     position: absolute;
+    transition:background-color 1s ease;
+}
+
+.flower6:hover{
+    margin-top: 83px;
+    margin-left: 597px;
+    width: 30px;
+    height: 30px;
+    background:#ec3131;
+    border-radius: 50%;
+    transform: rotate(129deg);
+    position: absolute;
+    transition:background-color 1s ease;
 }
 
 .book1 {
+     margin-top: 90px;
+     margin-left:580px;
       width: 150px;
-      height: 200px;
-      transform: skew(20deg);
-      background: red;
+      height: 350px;
+      transform: skewY(25deg);
+      position:absolute;
+      background-image: linear-gradient(#42b77c 5%, #48b777,#7fc3ad ,#da5f83 );
     }
 
+.book2 {
+     margin-top: 124px;
+    margin-left: 730px;
+    width: 30px;
+    height: 350px;
+    position: absolute;
+    background: #cecdc8;
+    }
+
+.book3 {
+    margin-top: 53px;
+    margin-left: 656px;
+    width: 30px;
+    height: 68px;
+    position: absolute;
+    transform: skewX(245deg);
+    background: #ffffff;
+
+    }
+
+.bookw1 {
+     margin-top: 391px;
+    margin-left: 538px;
+    width: 227px;
+    height: 86px;
+    transform: skewX(127deg);
+    position: absolute;
+    background: #f2f2f2;
+    }
+
+.bookw2 {
+    margin-top: 472px;
+    margin-left: 489px;
+    width: 227px;
+    height: 30px;
+    transform: skewX(0deg);
+    position: absolute;
+    background: #cccccc;
+    }
+
+.bookw3 {
+    margin-top: 432px;
+    margin-left: 715px;
+    width: 106px;
+    height: 30px;
+    transform: skewY(-38deg);
+    position: absolute;
+    background: #e4e2d9;
+    }
+
+.column1{
+    margin-top: 139px;
+    margin-left: 100px;
+    width: 200px;
+    height: 30px;
+    background: #ffffff5c;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.column2 {
+    margin-top: 139px;
+    margin-left: 100px;
+    width: 200px;
+    height:250px;
+    border: solid 5px #ffffff;
+    border-color:  transparent #ffffff  transparent #ffffff;
+    border-radius:30px;
+    position: absolute;
+    background-image: linear-gradient(#ffffff12 ,#ffffff6b);
+}
+
+.column3{
+    margin-top: 357px;
+    margin-left: 100px;
+    width: 200px;
+    height: 30px;
+    background: #c7c7c7;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.column4{
+    margin-top: 400px;
+    margin-left: 100px;
+    width: 200px;
+    height: 30px;
+    background: #505050;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.column5{
+    margin-top: 376px;
+    margin-left: 100px;
+    width: 200px;
+    height: 38px;
+    background: #505050;
+    position: absolute;
+}
+
+.dollhead{
+    margin-top: 209px;
+    margin-left: 161px;
+    width: 80px;
+    height: 77px;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.dollhair{
+    margin-top: 197px;
+    margin-left: 147px;
+    width: 107px;
+    height: 88px;
+    background: #080808;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.dollhair1{
+    margin-top: 225px;
+    margin-left: 229px;
+    width: 19px;
+    height: 26px;
+    background: #080808;
+    border-radius: 20%;
+    position: absolute;
+}
+
+.dollhair2{
+    margin-top: 225px;
+    margin-left: 154px;
+    width: 19px;
+    height: 26px;
+    background: #080808;
+    border-radius: 20%;
+    position: absolute;
+}
+
+.dollhair3{
+    margin-top: 207px;
+    margin-left: 166px;
+    width: 70px;
+    height: 30px;
+    background: #080808;
+    border-radius: 20%;
+    position: absolute;
+}
+
+.dollhairdeco{
+   margin-top: 193px;
+    margin-left: 175px;
+    width: 50px;
+    height: 20px;
+    background: #ec3131;
+    border-radius: 20%;
+    position: absolute;
+}
+.dollhairdeco1{
+      margin-top: 223px;
+    margin-left: 162px;
+    width: 20px;
+    height: 15px;
+    background: #ffffff;
+    border-radius: 10%;
+    position: absolute;
+}
+.dollhairdeco1r{
+      margin-top: 223px;
+    margin-left: 168px;
+    width: 7px;
+    height: 15px;
+    background: #ec3131;
+    border-radius: 10%;
+    position: absolute;
+}
+
+.dolleyeleft{
+      margin-top: 247px;
+    margin-left: 174px;
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.dolleyeright{
+      margin-top: 247px;
+    margin-left: 209px;
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.dollhairdeco2{
+      margin-top: 223px;
+    margin-left: 218px;
+    width: 20px;
+    height: 15px;
+    background: #ffffff;
+    border-radius: 10%;
+    position: absolute;
+}
+.dollhairdeco2r{
+      margin-top: 223px;
+    margin-left: 224px;
+    width: 7px;
+    height: 15px;
+    background: #ec3131;
+    border-radius: 10%;
+    position: absolute;
+}
+
+.dollbody{
+    margin-top: 278px;
+    margin-left: 152px;
+    width: 100px;
+    height: 90px;
+    background: #3b426b;
+    border-radius: 60px 60px 30px 30px;
+    position: absolute;
+}
+
+.dollhand1sl{
+    margin-top: 300px;
+    margin-left: 139px;
+    width: 38px;
+    height: 60px;
+    background: #292f54;
+    border-radius: 50%;
+    position: absolute;
+    transform: rotate(23deg);
+}
+
+.dollhand1{
+    margin-top: 300px;
+    margin-left: 159px;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.dollhand2sl{
+   margin-top: 285px;
+    margin-left: 210px;
+    width: 60px;
+    height: 60px;
+    background: #3b426b;
+    border-radius: 10%;
+    position: absolute;
+    transform: rotate(23deg);
+}
+
+.dollhand2{
+    margin-top: 300px;
+    margin-left: 270px;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.band{
+    margin-top: 310px;
+    margin-left: 180px;
+    width: 50px;
+    height: 10px;
+    background: #bcefad;
+    border-radius: 20%;
+    position: absolute;
+}
+.band1{
+    margin-top: 320px;
+    margin-left: 180px;
+    width: 50px;
+    height: 10px;
+    background: #f798c6;
+    border-radius: 20%;
+    position: absolute;
+}

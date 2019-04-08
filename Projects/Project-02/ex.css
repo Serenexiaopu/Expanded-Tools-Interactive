@@ -1,0 +1,161 @@
+.containerb{
+	position:absolute;
+	width:150px;
+	height: 150px;
+	margin-left: 400px;
+	margin-top: 200px;
+}
+
+.triangleb1{
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 150px 25px 0 0;
+border-color: #8ac3ff transparent transparent transparent;
+}
+.triangleb2{
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 0 150px 25px;
+border-color: transparent transparent #8ac3ff transparent;
+margin-left: 2px;
+
+}
+
+.triangleb3{
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 20px 0 0 40px;
+border-color: transparent transparent transparent #8ac3ff;
+margin-left:29px;
+margin-top: 3px;
+	
+}
+.triangleb4{
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 20px 0 0 57px;
+border-color: transparent transparent transparent #8ac3ff;
+margin-left:29px;
+margin-top: 68px;
+	
+}
+.triangleb5{
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 20px 40px 0 0;
+border-color: #8ac3ff transparent transparent transparent;
+margin-left: 29px;
+margin-top: 128px;
+	
+}
+.triangleb6{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 19px 14px 28px;
+    border-color: transparent transparent #8ac3ff transparent;
+    margin-left: 29px;
+    margin-top: -2px;
+    transform: rotate(27deg);
+	
+}
+.triangleb7{
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 57px 20px 0;
+border-color: transparent #8ac3ff transparent transparent;
+margin-left: 29px;
+margin-top: 66px;
+	
+}
+.triangleb8{
+	position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 28px 14px 19px;
+    border-color: transparent transparent #8ac3ff transparent;
+    margin-left: 29px;
+    margin-top: 139px;
+    transform: rotate(153deg);
+
+	
+}
+
+.triangleb9{
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 25px 50px 0;
+border-color: transparent #8ac3ff transparent transparent;
+margin-left: 61px;
+	
+}
+.triangleb10{
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 0 50px 25px;
+border-color: transparent transparent #8ac3ff transparent;
+margin-left: 61px;
+margin-top: 100px
+	
+}
+.triangleb11{
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 22px 25px 0 0;
+border-color: #8ac3ff transparent transparent transparent;
+margin-top: 52px;
+margin-left: 88px;
+	
+}
+
+.triangleb12{
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 22px 0 0 25px;
+border-color: transparent transparent transparent #8ac3ff ;
+margin-top: 77px;
+margin-left: 88px;
+	
+}
+.triangleb13{
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 50px 0 0 25px;
+border-color: transparent transparent transparent #8ac3ff;
+margin-left: 88px;
+}
+
+.triangleb14{
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 50px 25px 0 0;
+border-color: #8ac3ff transparent transparent transparent;
+margin-left: 88px;
+margin-top: 100px;
+}

@@ -185,7 +185,7 @@ $('#one').hover(function(){
 
    });
 
-$('.eye').hover(function(){
+$('.eyeholder').hover(function(){
   	$('.air').fadeIn();
   	$('.water').fadeIn();
 	$('.fire').fadeIn();
@@ -222,7 +222,7 @@ $('.eye').hover(function(){
     
    });
 
-$('.eye').click(function(){
+$('.eyeholder').click(function(){
   	$('.air').hide();
   	$('.water').hide();
 	$('.fire').hide();

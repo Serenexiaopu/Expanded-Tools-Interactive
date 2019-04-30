@@ -6,6 +6,9 @@ h1{
 	font-size:20px;
 	font-style: thin;
 }
+/*svg, svg *{
+pointer-events: none;
+}*/
 /*fire circle*/
 .circle{
   position: absolute;
@@ -493,37 +496,40 @@ border-color: transparent transparent #000000 transparent;
 
 
 }
-#eyeholder{
+.eyeholder{
 	position: absolute;
     margin-left: 770px;
     margin-top:350px;
-	width:50px;
-	height:50px;
-  
-}
+	width:60px;
+	height:60px;
+	
+  }
 
-
-.eye: hover{
+.eyeholder:hover{
 	animation-name: spinx;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
+
 }
 
-.eye: active{
+.eyeholder:active{
 	animation-name: spinx;
   animation-duration: 500ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
+ 
 }
 
 @keyframes spinx {
     from {
         transform:rotate(0deg);
     }
+    
     to {
         transform:rotate(360deg);
     }
+    
 }
 
 
